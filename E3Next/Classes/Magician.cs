@@ -22,7 +22,7 @@ namespace E3Core.Classes
     {
         private static IMQ MQ = E3.MQ;
         private static ISpawns _spawns = E3.Spawns;
-        private static string _weaponSpell = "Grant Spectral Armaments";
+        private static string _weaponSpell = "Sword of Runes";
         private static string _weaponItem = "Folded Pack of Spectral Armaments";
         private static string _armorSpell = "Grant Spectral Plate";
         private static string _armorItem = "Folded Pack of Spectral Plate";
@@ -36,8 +36,8 @@ namespace E3Core.Classes
 		private static Spell _dskCodexSpell = null;
 
 		private static Dictionary<string, string> _weaponMap = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase) {
-            {"Fire", "Summoned: Fist of Flame"},
-            {"Water", "Summoned: Orb of Chilling Water" },
+            {"Fire", "Summoned: Sword of Runes"},
+            {"Water", "Summoned: Sword of Runes" },
             {"Shield", "Summoned: Buckler of Draining Defense" },
             {"Taunt", "Summoned: Short Sword of Warding" },
             {"Slow", "Summoned: Mace of Temporal Distortion" },
